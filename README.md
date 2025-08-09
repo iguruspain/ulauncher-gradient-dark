@@ -1,6 +1,6 @@
-# Orchis Dark Ulauncher
+# Gradient Dark Ulauncher
 
-A theme for Ulauncher. Orchis Dark theme.
+A theme for Ulauncher. Gradient Dark theme.
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/kleber-swf/orchis-dark-ulauncher/assets/screenshot.png)
