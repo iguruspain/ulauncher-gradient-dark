@@ -3,12 +3,12 @@
 A theme for Ulauncher. Gradient Dark theme.
 
 ## Screenshot
-![](https://raw.githubusercontent.com/kleber-swf/orchis-dark-ulauncher/assets/screenshot.png)
+![](https://github.com/iguruspain/ulauncher-gradient-dark/blob/5221f598ce9378a34e2c955579ebb318e074f2ea/ulauncher-gradient-dark.png)
 
 ## Installation
 
 ```sh
 mkdir -p ~/.config/ulauncher/user-themes
-git clone git@github.com:kleber-swf/orchis-dark-ulauncher.git \
-  ~/.config/ulauncher/user-themes/orchis-dark
+git clone  \
+  ~/.config/ulauncher/user-themes/gradient-dark
 ```
