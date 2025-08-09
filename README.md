@@ -9,6 +9,6 @@ A theme for Ulauncher. Gradient Dark theme.
 
 ```sh
 mkdir -p ~/.config/ulauncher/user-themes
-git clone  \
+git clone https://github.com/iguruspain/ulauncher-gradient-dark.git \
   ~/.config/ulauncher/user-themes/gradient-dark
 ```
