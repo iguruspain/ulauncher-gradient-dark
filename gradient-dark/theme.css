@@ -1,0 +1,106 @@
+/**
+ * App Window
+ */
+@define-color bg_color rgba(28, 32, 47, 0.7);
+@define-color window_bg @bg_color;
+@define-color window_border_color rgba(42, 49, 71, 0.6); /*#2a3147*/
+@define-color prefs_backgroud #8d939f;
+
+/**
+ * Input
+ */
+@define-color selected_bg_color #006b6b;
+/*@define-color selected_bg_color rgba(75,80,83,.7);*/
+@define-color selected_fg_color #fefefe;
+@define-color input_color #fefefe;
+@define-color caret_color darker(@input_color);
+
+/**
+ * Result items
+ */
+@define-color item_name #fefefe;
+@define-color item_text #8d939f;
+
+@define-color item_box_selected #006b6b;
+@define-color item_text_selected #00ecad;
+@define-color item_name_selected #fefefe;
+
+@define-color item_shortcut_color #00aa7f;
+@define-color item_shortcut_shadow darker(@bg_color);
+@define-color item_shortcut_color_sel #00ecad;
+@define-color item_shortcut_shadow_sel darker(@item_box_selected);
+
+.app {
+    background-color: @window_bg;
+    border-width: 0;
+    border-top: 2px solid @window_border_color;
+    border-bottom: 2px solid @window_border_color;
+    border-left: 2px solid @window_border_color;
+    border-right: 2px solid @window_border_color;
+    border-radius: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.input {
+    color: @input_color;
+}
+
+/**
+ * Selected text in input
+ */
+.input *:selected,
+.input *:focus,
+*:selected:focus {
+    background-color: alpha (@selected_bg_color, 0.9);
+    color: @selected_fg_color;
+}
+
+.item-text {
+    color: @item_text;
+}
+.item-name {
+    color: @item_name;
+}
+
+.selected.item-box {
+    /*background-color: @item_box_selected;*/
+    background-color: @bg_color;
+    background-image: linear-gradient(
+        to right,
+        rgba(62, 67, 136, 0.7),     /* #3e4388 with 70% opacity */
+        rgba(18, 94, 104, 0.7)      /* #125e68 with 70% opacity */
+    );
+    border-radius: 10px;
+    opacity: 1;
+}
+.selected.item-box .item-text {
+    color: @item_text_selected;
+}
+.selected.item-box .item-name {
+    color: @item_name_selected;
+}
+.item-shortcut {
+    color: @item_shortcut_color;
+    text-shadow: 1px 1px 1px @item_shortcut_shadow;
+}
+.selected.item-box .item-shortcut {
+    color: @item_shortcut_color_sel;
+    text-shadow: 1px 1px 1px @item_shortcut_shadow_sel;
+}
+
+.prefs-btn {
+    opacity: 0.8;
+}
+.prefs-btn * {
+    box-shadow: none;
+}
+.prefs-btn:hover {
+    background-color: @prefs_backgroud;
+}
+
+.no-window-shadow {
+    margin: -20px;
+}
