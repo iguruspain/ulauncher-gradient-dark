@@ -1,6 +1,6 @@
 # Gradient Dark Ulauncher
 
-A theme for Ulauncher. Gradient Dark theme.
+Ulauncher theme created for [Gradient Plasma Themes](https://github.com/L4ki/Gradient-Plasma-Themes)
 
 ## Screenshot
 ![](https://github.com/iguruspain/ulauncher-gradient-dark/blob/5221f598ce9378a34e2c955579ebb318e074f2ea/ulauncher-gradient-dark.png)
