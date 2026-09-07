@@ -7,9 +7,9 @@ My custom Ulauncher theme created for [Gradient Plasma Themes](https://github.co
 - args: --hide-window --no-window-shadow
 
 ## Screenshots
-![](https://raw.githubusercontent.com/iguruspain/ulauncher-gradient-dark/090c648651888011b00413d350ee29c8da04a4ca/ulauncher-gradient-dark.png)
+![](ulauncher-gradient-dark.png)
 
-![](https://raw.githubusercontent.com/iguruspain/assets/refs/heads/main/ulauncher_gradient_dark.webp)
+![](ulauncher_gradient_dark.webp)
 
 ## Installation
 
