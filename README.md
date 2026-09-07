@@ -7,9 +7,14 @@ My custom Ulauncher theme created for [Gradient Plasma Themes](https://github.co
 - args: --hide-window --no-window-shadow
 
 ## Screenshots
-![](ulauncher-gradient-dark.png)
 
-![](ulauncher_gradient_dark.webp)
+<p align="center">
+  <img src="ulauncher-gradient-dark.png" alt="Gradient Dark screenshot" width="600">
+</p>
+
+<p align="center">
+  <img src="ulauncher_gradient_dark.webp" alt="Gradient Dark demo" width="600">
+</p>
 
 ## Installation
 
